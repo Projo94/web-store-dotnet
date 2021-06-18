@@ -2,9 +2,9 @@
 Web store fullstack solution based on Onion architecture
 
 
-## The problem
+## The Problem
 
 
 
 
-##The solution
+## The Solution
