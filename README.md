@@ -37,3 +37,9 @@ Communication with database should be provided via API.
 
 ## The Solution
 
+In this project I was using .NET 5.0 for creating Web API project and a couple of class library projects.
+In order to achieve the best practices, entire solution is based on Onion Architecture principle, because it clearly separates the domain of the problem from the underlying technologies that implement the solution. Therefore, to avoid traditional architectures, in which the same data model was used to query and update a database, this solution utilized the power of CQRS. As it separates reads and writes into separate models, using commands to update data, and queries to read data. Mediator pattern in .NET framework is implemented using the MediatR open source implementation. 
+
+
+### Data Model
+
