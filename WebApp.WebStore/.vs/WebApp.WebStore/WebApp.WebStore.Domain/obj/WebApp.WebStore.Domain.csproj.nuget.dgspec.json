@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "projectName": "WebApp.WebStore.Domain",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

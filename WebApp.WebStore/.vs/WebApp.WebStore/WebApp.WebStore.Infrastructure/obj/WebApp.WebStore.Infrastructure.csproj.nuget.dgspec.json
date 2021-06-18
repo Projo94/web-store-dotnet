@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
+        "projectName": "WebApp.WebStore.Application",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
+        "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "DependencyInjection.AutoRegistration": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "projectName": "WebApp.WebStore.Domain",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
+        "projectName": "WebApp.WebStore.Infrastructure",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[27.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.23.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

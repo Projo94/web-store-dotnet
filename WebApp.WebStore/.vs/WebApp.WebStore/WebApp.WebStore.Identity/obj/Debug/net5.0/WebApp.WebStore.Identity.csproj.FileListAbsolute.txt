@@ -1,0 +1,17 @@
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Identity.deps.json
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Identity.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\ref\WebApp.WebStore.Identity.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Identity.pdb
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Application.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Domain.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Application.pdb
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\bin\Debug\net5.0\WebApp.WebStore.Domain.pdb
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.csprojAssemblyReference.cache
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.AssemblyInfoInputs.cache
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.AssemblyInfo.cs
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.csproj.CoreCompileInputs.cache
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.csproj.CopyComplete
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\ref\WebApp.WebStore.Identity.dll
+C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore\WebApp.WebStore.Identity\obj\Debug\net5.0\WebApp.WebStore.Identity.pdb

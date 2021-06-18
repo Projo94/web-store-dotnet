@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\Users\MarkoProjovic\Desktop\Private\Projects\WebApp.WebStore\.vs\WebApp.WebStore.Domain\WebApp.WebStore.Application\bin\Debug\net5.0\ref\WebApp.WebStore.Application.dll' could not be found
+dotnet_diagnostic.CS0006.severity = suggestion
