@@ -43,3 +43,11 @@ In order to achieve the best practices, entire solution is based on Onion Archit
 
 ### Data Model
 
+#### Products
+* Uid - unique product number generated from the system
+* Caption - short product name
+* Description - product description
+* Price - product price rounded on two decimals
+* BrandEID - producer; foreign key on the lookup table BrandTypes
+
+
