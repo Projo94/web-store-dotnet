@@ -88,3 +88,13 @@ In order to achieve the best practices, entire solution is based on Onion Archit
 * AddOrder - method for adding order
 * EditOrder - method for editing order
 * DeleteOrder - method for deleting order for provided order id
+* GetOrders - method for getting entered orders, filter is not important
+* GetBestBuyProductsInLastMonth - method that returns 10 most sold products from the previous month
+It should process validation errors.
+
+##Admin portal
+* Make the logging feature on the admin portal
+* Admin portal should have pages for viewing and Adding/Editing/Deleting products. Page desing is not important, just needed to process validation errors.
+* Admin portal should have pages for viewing and Adding/Editing/Deleting orders. Page desing is not important, just needed to process validation errors.
+* Make 5 categories of: Shoes, Clothes, Jackets, Shirts, Sneakers, and each should consist of 3 products.Therewith some of the products should be housed in more than one category, for example: sneakers could be in category Sneakers and in category Shoes.
+* 
