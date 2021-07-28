@@ -94,6 +94,6 @@ It should process validation errors.
 
 ## Admin portal
 * Make the logging feature on the admin portal
-* Admin portal should have pages for viewing and Adding/Editing/Deleting products. Page desing is not important, just needed to process validation errors.
-* Admin portal should have pages for viewing and Adding/Editing/Deleting orders. Page desing is not important, just needed to process validation errors.
+* Admin portal should have pages for viewing and Adding/Editing/Deleting products. Page design is not important, just needed to process validation errors.
+* Admin portal should have pages for viewing and Adding/Editing/Deleting orders. Page design is not important, just needed to process validation errors.
 * Make 5 categories of: Shoes, Clothes, Jackets, Shirts, Sneakers, and each should consist of 3 products.Therewith some of the products should be housed in more than one category, for example: sneakers could be in category Sneakers and in category Shoes.
