@@ -11,18 +11,18 @@ The main goal is to implement administrator portal for online shopping that prov
 
 Communication with database should be provided via API.
 
-#### API specification:
-
-- AddProduct - method for adding product
-- EditProduct - method for updating product
-- DeleteProduct - method for deleting product based on provided product id
-- GetProducts - method for selecting all products that match specified criteria
-- GetProductDetails - method that returns data for products representing on Details page that match specified criteria
-- AddOrder - method for adding order
-- EditOrder - method for updating order
-- DeleteOrder - method for deleting order based on provided order id
-- GetOrders - method for getting all orders, filter is not important
-- GetBestBuyProductsInLastMonth - method that returns 10 best selling products in the previous month
+## API Specification
+* AddProduct - method for adding product
+* EditProduct - method for updating the product
+* DeleteProduct - method for deleting the product which for provided id deletes the product
+* GetProducts - method that returns all products which matching criteria
+* GetProductDetails - method that returns data for viewing product on Details page for provided id
+* AddOrder - method for adding order
+* EditOrder - method for editing order
+* DeleteOrder - method for deleting order for provided order id
+* GetOrders - method for getting entered orders, filter is not important
+* GetBestBuyProductsInLastMonth - method that returns 10 most sold products from the previous month
+It should process validation errors.
 
 
 #### Admin portal:
@@ -79,18 +79,7 @@ In order to achieve the best practices, entire solution is based on Onion Archit
 * Each product should consist at least 3 pictures and 3 sizes
 * Some of products should be housed in at least 2 categories
 
-## API Specification
-* AddProduct - method for adding product
-* EditProduct - method for updating the product
-* DeleteProduct - method for deleting the product which for provided id deletes the product
-* GetProducts - method that returns all products which matching criteria
-* GetProductDetails - method that returns data for viewing product on Details page for provided id
-* AddOrder - method for adding order
-* EditOrder - method for editing order
-* DeleteOrder - method for deleting order for provided order id
-* GetOrders - method for getting entered orders, filter is not important
-* GetBestBuyProductsInLastMonth - method that returns 10 most sold products from the previous month
-It should process validation errors.
+
 
 ## Admin portal
 * Make the logging feature on the admin portal
