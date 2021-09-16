@@ -5,8 +5,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Features\Products\Queries\GetOrderDetail\" />
+		<Folder Include="Features\Brands\Commands\" />
+		<Folder Include="Features\Categories\Commands\" />
 		<Folder Include="Features\Products\Queries\GetProductsExport\" />
+		<Folder Include="Features\SizeTypes\Commands\" />
 	</ItemGroup>
 
 	<ItemGroup>

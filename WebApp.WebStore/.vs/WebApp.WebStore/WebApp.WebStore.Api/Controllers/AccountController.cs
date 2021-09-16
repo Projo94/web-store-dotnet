@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using WebApp.WebStore.Application.Contracts.Identity;
 using WebApp.WebStore.Application.Models.Authentication;
 
 namespace WebApp.WebStore.Api.Controllers
 {
+
+    [EnableCors("Open")]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase

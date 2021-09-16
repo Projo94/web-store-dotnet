@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj": {}
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj",
         "projectName": "WebApp.WebStore.Api",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\WebApp.WebStore.Api.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,20 +28,20 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
               },
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
               },
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj"
               },
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj"
               },
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj"
               }
             }
           }
@@ -56,6 +56,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.1.4, )"
@@ -79,18 +85,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
         "projectName": "WebApp.WebStore.Application",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,8 +113,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
               }
             }
           }
@@ -167,18 +173,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
         "projectName": "WebApp.WebStore.Domain",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,18 +227,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj",
         "projectName": "WebApp.WebStore.Identity",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\WebApp.WebStore.Identity.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,8 +255,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
               }
             }
           }
@@ -267,7 +273,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
@@ -275,15 +281,21 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -295,11 +307,16 @@
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
-              "version": "[5.0.7, )"
+              "version": "[5.0.8, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.NETCore.Targets": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -307,7 +324,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.11.1, )"
+              "version": "[6.12.0, )"
             }
           },
           "imports": [
@@ -325,18 +342,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
         "projectName": "WebApp.WebStore.Infrastructure",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -353,8 +370,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
               }
             }
           }
@@ -409,18 +426,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj": {
+    "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
         "projectName": "WebApp.WebStore.Persistance",
-        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
+        "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
         "packagesPath": "C:\\Users\\MarkoProjovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarkoProjovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -437,11 +454,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Application\\WebApp.WebStore.Application.csproj"
               },
-              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
-                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
+              "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Domain\\WebApp.WebStore.Domain.csproj"
               }
             }
           }
@@ -456,6 +473,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.7, )"
@@ -488,7 +509,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

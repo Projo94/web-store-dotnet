@@ -5,6 +5,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.7">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
 	</ItemGroup>
 
@@ -19,5 +23,25 @@
 	<ItemGroup>
 		<Folder Include="Logs\" />
 	</ItemGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+	  <TypeScriptTarget>ES2017</TypeScriptTarget>
+	  <TypeScriptJSXEmit>React</TypeScriptJSXEmit>
+	  <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+	  <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+	  <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+	  <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+	  <TypeScriptOutFile />
+	  <TypeScriptOutDir />
+	  <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+	  <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+	  <TypeScriptSourceMap>True</TypeScriptSourceMap>
+	  <TypeScriptMapRoot />
+	  <TypeScriptSourceRoot />
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <WarningLevel>4</WarningLevel>
+	</PropertyGroup>
 
 </Project>

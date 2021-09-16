@@ -1,22 +1,15 @@
 ﻿using MediatR;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WebApp.WebStore.Application.Features.Orders.Commands.UpdateOrder.DTOs;
 
 namespace WebApp.WebStore.Application.Features.Orders.Commands.UpdateOrder
 {
     public class UpdateOrderCommand : IRequest
     {
-        public int OrderID { get; set; }
-
         public Guid Uid { get; set; }
 
-        public double TotalPrice { get; set; }
-
-        public DateTime CreateDateUtc { get; set; }
-
+        public List<OrderItemForUpdateDto> OrderItems { get; set; }
 
     }
 }

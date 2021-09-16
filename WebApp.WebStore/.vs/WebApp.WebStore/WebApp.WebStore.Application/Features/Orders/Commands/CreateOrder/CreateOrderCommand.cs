@@ -2,29 +2,45 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebApp.WebStore.Domain.Entities;
+using System.Text.Json.Serialization;
+using WebApp.WebStore.Application.Features.Orders.Commands.CreateOrder.DTOs;
 
 namespace WebApp.WebStore.Application.Features.Orders.Commands.CreateOrder
 {
-    public class CreateOrderCommand : IRequest<Guid>// returning value, when it is created, return a guid of newly created order
+    public class CreateOrderCommand : IRequest<Guid?>// returning value, when it is created, return a guid of newly created order
     {
 
-        public int OrderID { get; set; }
 
+        public CreateOrderCommand()
+        {
+            Uid = Guid.NewGuid();
+            CreateDateUtc = DateTime.Now;
+        }
+
+        [JsonIgnore]
         public Guid Uid { get; set; }
 
-        public double TotalPrice { get; set; }
+        [JsonIgnore]
+        public double TotalPrice
+        {
+            get
+            {
 
+                var totalPrice = (from item in OrderItems select item.Quantity * item.PricePerUnit).Sum();
+
+                return totalPrice;
+            }
+        }
+
+        [JsonIgnore]
         public DateTime CreateDateUtc { get; set; }
 
-        public ICollection<OrderItem> OrderItems { get; set; }
+        public ICollection<OrderItemForCreationDto> OrderItems { get; set; }
 
 
         public override string ToString()
         {
-            return $"Order: {OrderID}; Total price: {TotalPrice}  ";
+            return $"Order: {Uid}; Total price: {TotalPrice}  ";
         }
     }
 }

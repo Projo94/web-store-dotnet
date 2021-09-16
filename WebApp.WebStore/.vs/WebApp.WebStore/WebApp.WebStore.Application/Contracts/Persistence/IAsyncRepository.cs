@@ -7,6 +7,10 @@ namespace WebApp.WebStore.Application.Contracts.Persistence
     public interface IAsyncRepository<T> where T : class
     {
         Task<T> GetByIdAsync(Guid id);
+
+        Task<T> GetByIdIntAsync(int id);
+
+
         Task<IReadOnlyList<T>> ListAllAsync();
 
         Task<T> AddAsync(T entity);
@@ -17,6 +21,6 @@ namespace WebApp.WebStore.Application.Contracts.Persistence
         Task<IReadOnlyList<T>> GetPagedReponseAsync(int page, int size);
         Task AddRange(List<T> entityList);
 
-
+        Task<bool> Exists(object id);
     }
 }

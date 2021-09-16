@@ -49,7 +49,7 @@ namespace WebApp.WebStore.Application.Features.Products.Commands.UpdateProduct
 
 
 
-                    var listProductCategory = _unitOfWork.ProductCategoryRepository.GetProductCategories(request.Uid);
+                    var listProductCategory = await _unitOfWork.CategoryRepository.GetProductCategories(request.Uid);
 
                     foreach (var pc in listProductCategory)
                     {
@@ -57,22 +57,28 @@ namespace WebApp.WebStore.Application.Features.Products.Commands.UpdateProduct
 
                         //delete product category that not exists in updated list 
                         if (match is null)
-                            await _unitOfWork.ProductCategoryRepository.DeleteAsync(pc);
+                        {
+                            var productCategory = await _unitOfWork.ProductCategoryRepository.GetProductCategory(request.Uid, pc.CategoryID);
+                            await _unitOfWork.ProductCategoryRepository.DeleteAsync(productCategory);
+                        }
                         else
                             request.listOfCategories.Remove(match);
 
                     }
 
 
-                    var listProductSizeType = _unitOfWork.ProductSizeTypeRepository.GetProductSizeTypes(request.Uid);
+                    var listProductSizeType = await _unitOfWork.SizeTypeRepository.GetProductSizeTypes(request.Uid);
 
                     foreach (var ps in listProductSizeType)
                     {
-                        var match = request.listOfSizeTypes.Where(p => p.SizeTypeEID == ps.SizeTypeID).FirstOrDefault();
+                        var match = request.listOfSizeTypes.Where(p => p.SizeTypeEID == ps.SizeTypeEID).FirstOrDefault();
 
                         //delete product size type that not exists in updated list 
                         if (match is null)
-                            await _unitOfWork.ProductSizeTypeRepository.DeleteAsync(ps);
+                        {
+                            var productSizeType = await _unitOfWork.ProductSizeTypeRepository.GetProductSizeType(request.Uid, ps.SizeTypeEID);
+                            await _unitOfWork.ProductSizeTypeRepository.DeleteAsync(productSizeType);
+                        }
                         else
                             request.listOfSizeTypes.Remove(match);
 

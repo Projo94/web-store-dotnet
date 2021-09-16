@@ -14,11 +14,19 @@ namespace WebApp.WebStore.Persistance.Repositories
 
         public IOrderRepository orderRepository;
 
+        public IOrderItemRepository orderItemRepository;
+
         public IProductRepository productRepository;
+
+        public ICategoryRepository categoryRepository;
+
 
         public IProductCategoryRepository productCategoryRepository;
 
         public IProductSizeTypeRepository productSizeTypeRepository;
+
+        public ISizeTypeRepository sizeTypeRepository;
+
 
         public IPictureRepository pictureRepository;
 
@@ -40,6 +48,18 @@ namespace WebApp.WebStore.Persistance.Repositories
             }
         }
 
+        public IOrderItemRepository OrderItemRepository
+        {
+            get
+            {
+                if (this.orderItemRepository == null)
+                    this.orderItemRepository = new OrderItemRepository(_context);
+
+                return orderItemRepository;
+            }
+        }
+
+
         public IProductRepository ProductRepository
         {
             get
@@ -51,6 +71,19 @@ namespace WebApp.WebStore.Persistance.Repositories
             }
         }
 
+        public ICategoryRepository CategoryRepository
+        {
+            get
+            {
+                if (this.categoryRepository == null)
+                    this.categoryRepository = new CategoryRepository(_context);
+
+                return categoryRepository;
+            }
+        }
+
+
+
         public IProductCategoryRepository ProductCategoryRepository
         {
             get
@@ -61,6 +94,8 @@ namespace WebApp.WebStore.Persistance.Repositories
                 return productCategoryRepository;
             }
         }
+
+
 
         public IProductSizeTypeRepository ProductSizeTypeRepository
         {
@@ -74,6 +109,22 @@ namespace WebApp.WebStore.Persistance.Repositories
             }
 
         }
+
+
+        public ISizeTypeRepository SizeTypeRepository
+        {
+
+            get
+            {
+                if (this.sizeTypeRepository == null)
+                    this.sizeTypeRepository = new SizeTypeRepository(_context);
+
+                return sizeTypeRepository;
+            }
+
+        }
+
+
 
         public IPictureRepository PictureRepository
         {

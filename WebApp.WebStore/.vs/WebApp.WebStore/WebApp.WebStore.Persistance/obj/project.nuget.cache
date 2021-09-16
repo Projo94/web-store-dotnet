@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ckklI9JOJTawCciNGy9t3SL4Gg3uWAd7d7mnA24ep/RB3s+DLDBdQVU/grstkFPBdhWeqERLSz4vmHNBYjC9kQ==",
+  "dgSpecHash": "xIpQlLtNg1xAIuXVG/7Zgv5URY8zijIQ5uZuL8gdUfnyfyqGnqwOKmx8K4V3pjr9dpf9/HAhnqwZR3OZAQVIOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Persistance\\WebApp.WebStore.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\MarkoProjovic\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\dependencyinjection.autoregistration\\3.0.0\\dependencyinjection.autoregistration.3.0.0.nupkg.sha512",
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

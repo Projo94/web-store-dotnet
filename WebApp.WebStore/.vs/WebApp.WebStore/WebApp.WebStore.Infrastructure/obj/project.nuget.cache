@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U8YMyY8CoOuqC8v34D+Wz6OeCoaZDYI64ZhElcBjIV2K0NwKNVStcELdEZgFbt8AFao9K+sr//GOJ8H6xkf01A==",
+  "dgSpecHash": "v4LI1jl4u4nnQMBYk9yEYv0uDdqx0Rn9V3EoCbNPpqy7NsUFYnGZRAhnW/cUThieAtEDkvv259A+2fWQtFSJNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\MarkoProjovic\\Desktop\\Private\\Projects\\projects_github\\web-store-dotnet\\WebApp.WebStore\\.vs\\WebApp.WebStore\\WebApp.WebStore.Infrastructure\\WebApp.WebStore.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\MarkoProjovic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

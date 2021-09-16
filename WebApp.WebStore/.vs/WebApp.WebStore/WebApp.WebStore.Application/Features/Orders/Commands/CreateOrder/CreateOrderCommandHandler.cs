@@ -1,37 +1,34 @@
 ﻿using AutoMapper;
 using MediatR;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using WebApp.WebStore.Application.Contracts.Infrastructure;
 using WebApp.WebStore.Application.Contracts.Persistence;
-using WebApp.WebStore.Application.Models.Mail;
 using WebApp.WebStore.Domain.Entities;
 
 namespace WebApp.WebStore.Application.Features.Orders.Commands.CreateOrder
 {
-    class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, Guid>
+    class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand, Guid?>
     {
-        private readonly IOrderRepository _orderRepository;
         private readonly IMapper _mapper;
         private readonly IEmailService _emailService;
+        private readonly IUnitOfWork _unitOfWork;
 
 
-        public CreateOrderCommandHandler(IMapper mapper, IOrderRepository orderRepository, IEmailService emailService = null)
+        public CreateOrderCommandHandler(IMapper mapper, IUnitOfWork unitOfWork, IEmailService emailService = null)
         {
             _mapper = mapper;
-            _orderRepository = orderRepository;
+            _unitOfWork = unitOfWork;
             _emailService = emailService;
         }
 
 
 
-        public async Task<Guid> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
+        public async Task<Guid?> Handle(CreateOrderCommand request, CancellationToken cancellationToken)
         {
-            var validator = new CreateOrderCommandValidator(_orderRepository);
+            var validator = new CreateOrderCommandValidator(_unitOfWork.OrderRepository);
             var validationResult = await validator.ValidateAsync(request);
 
 
@@ -39,27 +36,52 @@ namespace WebApp.WebStore.Application.Features.Orders.Commands.CreateOrder
                 throw new Exceptions.ValidationException(validationResult);
 
             var @order = _mapper.Map<Order>(request);
-            @order = await _orderRepository.AddAsync(@order);
 
-            var email = new Email()
-            {
-                To = "markoprojovic@gmail.com",
-                Body = $"A new order was created: {request}",
-                Subject = "A new order was created"
-            };
 
-            try
+            using (var transaction = await _unitOfWork.BeginTransactionAsync())
             {
-                await _emailService.SendEmail(email);
+
+                try
+                {
+                    var @orderItems = @order.OrderItems.ToList(); //getting order items before getting rid of from order
+
+                    @order.OrderItems.Clear(); // clearing orderitems in order
+
+                    @order = await _unitOfWork.OrderRepository.AddAsync(@order); //saving the order 
+
+                    @orderItems = @orderItems.Select(c =>
+                    {
+                        c.Uid = @order.Uid; // setting up orderid from order item to particular order
+                        return c;
+                    }).ToList();
+
+
+                    await _unitOfWork.OrderItemRepository.AddRange(@orderItems); //saving the order items
+
+                    await _unitOfWork.OrderItemRepository.SaveChangesAsync();
+
+                    await transaction.CommitAsync();
+
+                    return @order.Uid;
+
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync();
+
+                    return null;
+
+                }
+
             }
-            catch (Exception ex)
-            {
-                //this shouldn't stop the API from doing else so this can be logged
-
-            }
 
 
-            return @order.Uid;
+
+
+
+
+
+
 
         }
 

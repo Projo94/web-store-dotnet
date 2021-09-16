@@ -11,12 +11,21 @@ namespace WebApp.WebStore.Persistance.Repositories
     {
         protected readonly WebStoreDbContext _dbContext;
 
+        private readonly DbSet<T> table = null;
+
         public BaseRepository(WebStoreDbContext dbContext)
         {
             _dbContext = dbContext;
+            table = _dbContext.Set<T>();
+
         }
 
         public virtual async Task<T> GetByIdAsync(Guid id)
+        {
+            return await _dbContext.Set<T>().FindAsync(id);
+        }
+
+        public async Task<T> GetByIdIntAsync(int id)
         {
             return await _dbContext.Set<T>().FindAsync(id);
         }
@@ -65,5 +74,12 @@ namespace WebApp.WebStore.Persistance.Repositories
         {
             await _dbContext.SaveChangesAsync();
         }
+
+
+        public async Task<bool> Exists(object id)
+        {
+            return await table.FindAsync(id) != null;
+        }
+
     }
 }

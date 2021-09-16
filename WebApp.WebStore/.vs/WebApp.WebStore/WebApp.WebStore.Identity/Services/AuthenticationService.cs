@@ -31,18 +31,18 @@ namespace WebApp.WebStore.Identity.Services
 
         public async Task<AuthenticationResponse> AuthenticateAsync(AuthenticationRequest request)
         {
-            var user = await _userManager.FindByEmailAsync(request.Email);
+            var user = await _userManager.FindByNameAsync(request.Username);
 
             if (user == null)
             {
-                throw new Exception($"User with {request.Email} not found.");
+                throw new Exception($"User with {request.Username} not found.");
             }
 
             var result = await _signInManager.PasswordSignInAsync(user.UserName, request.Password, false, lockoutOnFailure: false);
 
             if (!result.Succeeded)
             {
-                throw new Exception($"Credentials for '{request.Email} aren't valid'.");
+                throw new Exception($"Credentials for '{request.Username} aren't valid'.");
             }
 
             JwtSecurityToken jwtSecurityToken = await GenerateToken(user);
@@ -52,7 +52,9 @@ namespace WebApp.WebStore.Identity.Services
                 Id = user.Id,
                 Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),
                 Email = user.Email,
-                UserName = user.UserName
+                UserName = user.UserName,
+                ValidTo = jwtSecurityToken.ValidTo.ToString()
+
             };
 
             return response;
@@ -126,7 +128,7 @@ namespace WebApp.WebStore.Identity.Services
                 issuer: _jwtSettings.Issuer,
                 audience: _jwtSettings.Audience,
                 claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(_jwtSettings.DurationInMinutes),
+                expires: DateTime.UtcNow.AddDays(_jwtSettings.DurationInMinutes),
                 signingCredentials: signingCredentials);
             return jwtSecurityToken;
         }

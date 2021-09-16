@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebApp.WebStore.Application.Features.Products.Commands.CreateProduct
 {
@@ -19,7 +20,7 @@ namespace WebApp.WebStore.Application.Features.Products.Commands.CreateProduct
 
         public double Price { get; set; }
 
-        public string BrandTypeEID { get; set; }
+        public int BrandTypeEID { get; set; }
 
 
         public List<PictureForCreationDto> listOfPictures { get; set; }

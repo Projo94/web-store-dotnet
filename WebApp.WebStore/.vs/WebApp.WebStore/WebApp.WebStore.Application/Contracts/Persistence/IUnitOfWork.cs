@@ -8,11 +8,17 @@ namespace WebApp.WebStore.Application.Contracts.Persistence
     {
         IOrderRepository OrderRepository { get; }
 
+        IOrderItemRepository OrderItemRepository { get; }
+
         IProductRepository ProductRepository { get; }
+
+        ICategoryRepository CategoryRepository { get; }
 
         IProductCategoryRepository ProductCategoryRepository { get; }
 
         IProductSizeTypeRepository ProductSizeTypeRepository { get; }
+
+        ISizeTypeRepository SizeTypeRepository { get; }
 
         IPictureRepository PictureRepository { get; }
 

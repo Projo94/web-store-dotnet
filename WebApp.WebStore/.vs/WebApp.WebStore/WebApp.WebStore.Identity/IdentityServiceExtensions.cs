@@ -17,7 +17,7 @@ namespace WebApp.WebStore.Identity
 {
     public static class IdentityServiceExtensions
     {
-        public static void AddIdentityServices(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddIdentityServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
 
@@ -88,6 +88,9 @@ namespace WebApp.WebStore.Identity
                         },
                     };
                 });
+
+
+            return services;
         }
     }
 }

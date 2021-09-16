@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Threading.Tasks;
 using WebApp.WebStore.Domain.Entities;
 
 namespace WebApp.WebStore.Application.Contracts.Persistence
 {
     public interface IProductSizeTypeRepository : IAsyncRepository<ProductSizeType>
     {
-
-        public List<ProductSizeType> GetProductSizeTypes(Guid productId);
+        public Task<ProductSizeType> GetProductSizeType(Guid productId, int sizeTypeID);
     }
 }

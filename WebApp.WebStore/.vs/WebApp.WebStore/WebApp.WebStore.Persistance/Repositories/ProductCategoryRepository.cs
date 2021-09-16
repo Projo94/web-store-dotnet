@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Threading.Tasks;
 using WebApp.WebStore.Application.Contracts.Persistence;
 using WebApp.WebStore.Domain.Entities;
 
@@ -16,11 +15,10 @@ namespace WebApp.WebStore.Persistance.Repositories
             _dbContext = dbContext;
         }
 
-        public List<ProductCategory> GetProductCategories(Guid productId)
+        public async Task<ProductCategory> GetProductCategory(Guid productId, int sizeTypeID)
         {
-            return _dbContext.ProductsCategories.FromSqlRaw("Select * From ProductsCategories Where ProductID = {0}", productId).ToList();
+            return await _dbContext.ProductsCategories.FromSqlRaw("SELECT CategoryID, ProductID FROM ProductsCategories where ProductID={0} and CategoryID={1}", productId, sizeTypeID).FirstOrDefaultAsync();
+
         }
-
-
     }
 }

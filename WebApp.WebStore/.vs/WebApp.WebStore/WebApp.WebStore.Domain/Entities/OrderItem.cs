@@ -19,7 +19,7 @@ namespace WebApp.WebStore.Domain.Entities
         public Guid Uid { get; set; }
 
         [IgnoreDataMember]
-        [ForeignKey("Uid")]
+        [ForeignKey("ProductID")]
         public Product Product { get; set; }
 
         [IgnoreDataMember]
